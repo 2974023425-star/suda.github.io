@@ -1924,6 +1924,9 @@ body:has(#page-header.full_page) #aside-content .card-widget {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
+body:has(#page-header.full_page) #footer {
+  background: transparent !important;
+}
 :root {
   --hl-color: #90a4ae;
   --hl-bg: #f6f8fa;
